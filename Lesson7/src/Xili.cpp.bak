@@ -1,0 +1,6 @@
+#include "Xili.hpp"
+
+Xili:: Xili(double kl)
+{
+	kaloria = kl;
+}

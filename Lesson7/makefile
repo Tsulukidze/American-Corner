@@ -1,0 +1,8 @@
+All: compile run
+compile:
+	g++ -I ./include/ -o ./lib/Bostneuli.o -c ./src/Bostneuli.cpp
+	g++ -I ./include/ -o ./lib/Xili.o -c ./src/Xili.cpp
+	g++ -I ./include/ -o ./bin/Test ./lib/Bostneuli.o ./lib/Xili.o ./src/Test.cpp
+
+run:
+	./bin/Test
