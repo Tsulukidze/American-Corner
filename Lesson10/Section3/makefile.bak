@@ -1,0 +1,9 @@
+All: compile run
+
+compile:
+	g++ -I ./include/ -o ./lib/Ricxvi.o -c ./src/Ricxvi.cpp
+	g++ -I ./include/ -o ./lib/Studenti.o -c ./src/Studenti.cpp
+	g++ -I ./include/ -o ./bin/Test ./lib/Ricxvi.o ./lib/Studenti.o ./src/Test.cpp
+	
+run:
+	./bin/Test
