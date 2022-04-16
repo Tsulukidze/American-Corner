@@ -31,7 +31,7 @@ class ArrayList
 		{
 			length = 0;
 			capacity = 10;
-			items = NULL;
+			items = new Obieqti[capacity];
 		
 		}
 		
