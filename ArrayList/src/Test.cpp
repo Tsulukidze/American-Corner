@@ -88,4 +88,5 @@ int main()
 	}while(select !=7);
 		
 	delete saxelebi;
+	return 0;
 }
