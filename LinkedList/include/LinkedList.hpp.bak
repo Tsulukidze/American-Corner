@@ -18,7 +18,7 @@ class LinkedList
 			while(iterator.hasNext() && position !=index)
 			{
 				iterator.next();
-				index++;
+				index++
 			}
 			return iterator;
 		}
